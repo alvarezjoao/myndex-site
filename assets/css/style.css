@@ -1,0 +1,42 @@
+/*
+  Myndex Digital — Design Tokens
+  Referência de variáveis CSS usadas no index.html
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  --font-display: 'Playfair Display', serif;
+  --font-sans:    'Plus Jakarta Sans', sans-serif;
+
+  /* Tema dark */
+  --bg:          #0f1117;
+  --bg2:         #1a1d27;
+  --bg3:         #222638;
+  --text:        #e8eaf0;
+  --muted:       #6b7280;
+  --subtle:      #3a3f55;
+  --border:      rgba(123,156,255,0.10);
+  --border-h:    rgba(123,156,255,0.30);
+  --accent:      #7b9cff;
+  --accent-dark: #4f6fe8;
+  --btn-text:    #0f1117;
+  --shadow:      0 4px 32px rgba(0,0,0,0.45);
+  --shadow-sm:   0 2px 12px rgba(0,0,0,0.30);
+}
+
+[data-theme="light"] {
+  --bg:          #f4f6ff;
+  --bg2:         #eaedfa;
+  --bg3:         #dde2f7;
+  --text:        #0d1020;
+  --muted:       #5a607a;
+  --subtle:      #c5cdf0;
+  --border:      rgba(79,111,232,0.14);
+  --border-h:    rgba(79,111,232,0.40);
+  --accent:      #4f6fe8;
+  --accent-dark: #3652c8;
+  --btn-text:    #ffffff;
+  --shadow:      0 4px 32px rgba(79,111,232,0.12);
+  --shadow-sm:   0 2px 12px rgba(79,111,232,0.08);
+}
