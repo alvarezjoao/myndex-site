@@ -1,6 +1,6 @@
 # Myndex Digital — Site Institucional
 
-Site institucional da Myndex Digital, agência digital de Porto Alegre.
+Site institucional da Myndex Digital, software house de Porto Alegre.
 
 ## Stack
 - HTML5 semântico
@@ -13,37 +13,19 @@ Site institucional da Myndex Digital, agência digital de Porto Alegre.
 myndex-site/
 ├── index.html          # Página principal
 ├── assets/
-│   ├── css/
-│   │   └── style.css   # Estilos extraídos (referência)
-│   ├── js/
-│   │   └── main.js     # Scripts extraídos (referência)
-│   └── img/            # Imagens e ícones
-├── pages/              # Páginas futuras (sobre, projetos, etc.)
+│   ├── css/style.css   # Design tokens (referência)
+│   ├── js/main.js      # Scripts
+│   └── img/            # Imagens
+├── pages/              # Páginas futuras
 ├── .gitignore
-├── vercel.json         # Config de deploy
+├── vercel.json
 └── README.md
 ```
 
 ## Deploy
-
-### GitHub + Vercel
-1. Push para o repositório GitHub
-2. Importar projeto no [vercel.com](https://vercel.com)
+1. Push para GitHub
+2. Importar no vercel.com
 3. Deploy automático a cada `git push`
-
-### Localmente
-Abra `index.html` direto no navegador — sem servidor necessário.
-
-## Desenvolvimento
-
-```bash
-# Clonar
-git clone https://github.com/seu-usuario/myndex-site.git
-cd myndex-site
-
-# Abrir no VS Code
-code .
-```
 
 ## Contato
 myndexdigital@gmail.com

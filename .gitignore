@@ -1,18 +1,11 @@
-# Sistema
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# Editores
 .vscode/settings.json
 .idea/
 *.swp
 *.swo
-
-# Deploy
 .vercel
 .env
 .env.local
-
-# Dependências (se usar npm futuramente)
 node_modules/

@@ -1,6 +1,4 @@
-/**
- * Myndex Digital — main.js
- */
+/* Myndex Digital — main.js */
 
 function toggleTheme() {
   const html = document.documentElement;
